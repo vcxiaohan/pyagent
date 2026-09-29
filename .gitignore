@@ -1,0 +1,18 @@
+# 密钥
+.env
+
+# 虚拟环境、缓存
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 编辑器、系统文件
+.idea/
+.vscode/
+.DS_Store
+
+# 运行时生成的数据（md5.text 必须和 chroma_db 一起忽略，否则会误判内容已入库）
+chroma_db/
+chat_history/
+md5.text
